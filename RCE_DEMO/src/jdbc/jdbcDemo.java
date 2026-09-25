@@ -24,7 +24,7 @@ public class jdbcDemo {
             Statement stmt = con.createStatement();
 
             // 3. Execute SELECT query
-            String sql = "SELECT * FROM STUDENT ";
+            String sql = "SELECT * FROM STUDENTS ";
 
             ResultSet rs = stmt.executeQuery(sql);
 
@@ -40,10 +40,10 @@ public class jdbcDemo {
                 );
             }
             
-          String sqlins = "INSERT INTO student VALUES (?, ?, ?)";
+          String sqlins = "INSERT INTO students VALUES (?, ?, ?)";
             PreparedStatement ps = con.prepareStatement(sqlins);
-            ps.setInt(1, 4638);
-            ps.setString(2, "kailash");
+            ps.setInt(1, 4040);
+            ps.setString(2, "Venkat");
             ps.setInt(3, 100);
             ps.executeUpdate(); 
 

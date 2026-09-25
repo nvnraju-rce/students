@@ -11,8 +11,8 @@ public class Main {
         System.out.println("===== JPA + Hibernate Demo =====");
 
         // CREATE / INSERT
-        Student s1 = new Student(4040,"Raju", 20);
-        Student s2 = new Student(4041,"Ravi", 21);
+        Student s1 = new Student(4045,"Raju", 20);
+        Student s2 = new Student(4046,"Ravi", 21);
 
         dao.save(s1);
         dao.save(s2);

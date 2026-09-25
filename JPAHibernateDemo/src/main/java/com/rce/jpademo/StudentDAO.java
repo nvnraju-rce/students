@@ -45,7 +45,7 @@ public class StudentDAO {
 
         try {
             return em.createQuery(
-                    "SELECT s FROM Student s",
+                    "SELECT s FROM Students s",
                     Student.class
             ).getResultList();
 
