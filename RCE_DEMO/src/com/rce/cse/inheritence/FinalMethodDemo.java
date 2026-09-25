@@ -1,5 +1,8 @@
 package com.rce.cse.inheritence;
 
+//Final class → No inheritance
+//Final method → No method overriding
+//Final variable → No reassignment
 class Animal {
 
     final void eat() {

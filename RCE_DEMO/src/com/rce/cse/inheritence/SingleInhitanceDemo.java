@@ -12,14 +12,9 @@ class Person {
      System.out.println("Name: " + name);
  }
 }
-
-
 //Child class
 class Student extends Person {
-
  int rollNo = 101;
- 
-
  void displayStudent() {
      System.out.println("Roll No: " + rollNo);
  }

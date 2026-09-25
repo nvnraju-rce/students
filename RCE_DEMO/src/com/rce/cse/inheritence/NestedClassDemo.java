@@ -1,5 +1,5 @@
 package com.rce.cse.inheritence;
-
+//Class with in another class in Nested Class
 class OuterClass { // Outer Class
 
 	int x = 10;

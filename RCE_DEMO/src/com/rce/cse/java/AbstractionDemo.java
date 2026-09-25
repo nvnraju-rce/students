@@ -1,5 +1,6 @@
 package com.rce.cse.java;
-
+//An abstract class is a class that cannot be used to create objects directly.
+//The abstract keyword is used when we want to create a general/partially implemented class or method.
 abstract class Animal {
     // Abstract method
     abstract void sound();

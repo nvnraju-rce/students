@@ -1,5 +1,5 @@
 package com.rce.cse.java;
-
+//An abstract class is a class that cannot be used to create objects directly.
 class A {
 	int x = 10 ;
 }

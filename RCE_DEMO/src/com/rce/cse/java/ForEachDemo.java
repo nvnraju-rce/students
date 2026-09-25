@@ -6,9 +6,11 @@ public class ForEachDemo {
         String[] students = {
             "Ravi", "Sita", "Rahul", "Priya", "Kiran"
         };
-        for (int =0; students.length > i;i++) {
-        	System.out.println("Hello " + student[i]);
+        //USing for loop
+        for (int i=0; students.length > i;i++) {
+        	System.out.println("Hello " + students[i]);
         }
+        //Using for each 
         for (String student : students) {
             System.out.println("Hello " + student);
         }

@@ -1,5 +1,6 @@
 package com.rce.cse.java;
 
+//Interface tells WHAT to do, while the implementing class decides HOW to do it.
 interface Vehicle {
     void start();
 }

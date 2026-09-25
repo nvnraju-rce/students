@@ -1,5 +1,6 @@
 package com.rce.cse.inheritence;
 
+//The this keyword refers to the current object.
 class Resource {
     String name;
     int age;

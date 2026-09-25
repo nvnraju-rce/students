@@ -1,14 +1,15 @@
 package com.rce.cse.inheritence;
-
-interface Father {
+//Multiple inherentace is not supported directly in java
+//Use interface class instead of class to support .
+interface Father { //interface Class
     void house();
 }
 
-interface Mother {
+interface Mother { //interface Class
     void car();
 }
 
-class Child implements Father, Mother {
+class Child implements Father, Mother { //Implement interface  in Child Class
 
     public void house() {
         System.out.println("Father's house");

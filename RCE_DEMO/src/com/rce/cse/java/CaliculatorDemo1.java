@@ -6,9 +6,10 @@ public class CaliculatorDemo1 {
     //Main method 
 	public static void main(String args[]) {
 		Calculator obj1 = new Calculator();
-		int a  = (int) args[0];
-				//Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);;
+		int a ,b;
+/*	//	int a  = (int) args[0]; //Wrong 
+		int a= Integer.parseInt(args[0]); //Right
+		int b = Integer.parseInt(args[1]);;*/
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter two Numbers to Add /Substract");
 		 a= sc.nextInt();

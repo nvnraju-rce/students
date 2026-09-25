@@ -1,5 +1,7 @@
 package com.rce.cse.inheritence;
 
+//Nested Method is not allowed in java Directly 
+//Within Method we can call another method .
 class NestedMethodDemo {
 
     void method1() {
