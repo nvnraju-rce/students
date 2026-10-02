@@ -62,6 +62,9 @@ public class MultipleExceptionDemo {
             System.out.println(
                 "Error: Please enter an integer"   );
         }
+        catch(Exception e) {
+        	
+        }
 
         finally {
 

@@ -26,6 +26,7 @@ public class EvenOddExceptionDemo {
 		        System.out.println("****************** General Exception  ******************");
 
 	      } finally {
+	    	  sc.close();
 	    	  System.out.println("****************** In Finally Block -All Ways Executes this line ******************"); 
 	      }
 	      

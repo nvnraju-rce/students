@@ -2,7 +2,7 @@ package com.rce.oops.unit4;
 
 import java.util.Scanner;
 
-//Custom Exception
+//Custom Exception 
 class VotingEligibilityException extends Exception {
 
  public VotingEligibilityException(String message) {

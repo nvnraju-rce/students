@@ -2,7 +2,7 @@ package mvcexceptiondemo;
 
 public class StudentController {
 
-    public void registerStudent(Student student) throws StudentException {
+    public void registerStudent(RceStudent student) throws StudentException {
 
         if (student.getAge() < 18) {
             // throw = actually generates/throws the exception

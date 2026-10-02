@@ -1,5 +1,6 @@
 package com.rce.oops.unit1;
 
+import java.util.*;
 
 public class PrimitiveDataTypesDemo {
 
@@ -46,6 +47,7 @@ public class PrimitiveDataTypesDemo {
         System.out.println("float   : " + Float.SIZE + " bits");
         System.out.println("double  : " + Double.SIZE + " bits");
         System.out.println("char    : " + Character.SIZE + " bits");
+      
 
         System.out.println("boolean : JVM-dependent storage size");
 

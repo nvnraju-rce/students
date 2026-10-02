@@ -1,13 +1,13 @@
 package com.rce.oops.unit4;
 
-import java.util.Scanner;
+import java.util.*;
 /*
  * Demo Program to show throw keyword in Exceptions 
  * It keyword used to send exception back to caller class and handle without catching exception by its own
  */
 public class PaymentDemo {
 
-    static void makePayment(double amount) {
+    static void makePayment(double amount) throws IllegalArgumentException{
 
         if (amount <= 0) {
             throw new IllegalArgumentException("Invalid payment amount");

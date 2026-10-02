@@ -58,7 +58,7 @@ public class StudentView extends JFrame {
                 throw new StudentException("Name cannot be empty");
             }
 
-            Student student = new Student(rollNo, name, age);
+            RceStudent student = new RceStudent(rollNo, name, age);
 
             // Controller method declares: throws StudentException
             controller.registerStudent(student);
