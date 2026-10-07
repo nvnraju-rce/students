@@ -61,6 +61,7 @@ import java.util.*;
 
  public class CaliculatorDemo  {
     //Main method 
+	 private int available = 0;;
 	public static void main(String args[]) {
 		Calculator obj1 = new Calculator();
 		int a  ;

@@ -1,5 +1,7 @@
 package com.rce.oops.unit4;
 import java.util.InputMismatchException;
+import com.rce.oops.unit1.CaliculatorDemo;
+
 //Exception handling is used to handle runtime errors so that 
 //the program can respond properly instead of terminating unexpectedly.
 
@@ -7,6 +9,8 @@ import java.util.Scanner;
 public class EvenOddExceptionDemo {
 	    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
+	        CaliculatorDemo cd = new CaliculatorDemo();
+	        java.util.Scanner sx = new java.util.Scanner(System.in);
 	        // Read a number from the user
 	        System.out.print("Enter a number: ");
 //	        The try block contains the code that may generate an exception.
