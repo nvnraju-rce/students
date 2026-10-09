@@ -2,7 +2,7 @@ package com.rce.oops.unit4;
 
 import java.util.Scanner;
 //throw → actually throws an exception
-//throws → declares that a method may throw an exception
+//throws  → declares that a method may throw an exception
 class InsufficientBalanceException extends Exception {
 
     public InsufficientBalanceException(String message) {

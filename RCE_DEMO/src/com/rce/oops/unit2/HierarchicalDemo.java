@@ -14,6 +14,9 @@ class Dogs extends Animals {
  void bark() {
      System.out.println("Dog is barking");
  }
+ void eat() {
+     System.out.println("Animal is eating");
+ }
 }
 
 //Child 2
@@ -36,5 +39,7 @@ public class HierarchicalDemo {
      Cats c = new Cats();
      c.eat();   // Inherited from Animal
      c.meow();  // Cat's own method
+     Animals obj = new Dogs();
+     obj.eat();
  }
 }
