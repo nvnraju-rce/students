@@ -1,4 +1,4 @@
-package t62_layouts_controls;
+package com.rce.oops.unit5.layouts_controls;
 import java.awt.*;
 import java.awt.event.*;
 // Program 35: Checkbox - many can be selected; ItemListener

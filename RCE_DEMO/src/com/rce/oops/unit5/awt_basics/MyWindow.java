@@ -1,4 +1,4 @@
-package t61_awt_basics;
+package com.rce.oops.unit5.awt_basics;
 import java.awt.*;
 import java.awt.event.*;
 // Program 28: Window by extending Frame (inheritance)

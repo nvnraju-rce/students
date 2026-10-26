@@ -1,4 +1,4 @@
-package t61_awt_basics;
+package com.rce.oops.unit5.awt_basics;
 import java.awt.*;
 // Program 29: Why setSize/setVisible are essential - run, then uncomment the lines
 public class NoSizeDemo {

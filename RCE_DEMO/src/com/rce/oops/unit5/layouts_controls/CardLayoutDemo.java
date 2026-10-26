@@ -1,4 +1,4 @@
-package t62_layouts_controls;
+package com.rce.oops.unit5.layouts_controls;
 import java.awt.*;
 import java.awt.event.*;
 // Program 33: CardLayout - a stack of cards, one visible at a time

@@ -1,4 +1,6 @@
-package t61_awt_basics;
+package com.rce.oops.unit5.awt_basics;
+
+
 import java.awt.*;
 import java.awt.event.*;
 // Program 30: Nested containers - Panels inside a Frame
