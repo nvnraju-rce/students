@@ -1,0 +1,9 @@
+target/
+node_modules/
+dist/
+.idea/
+.project
+.classpath
+.settings/
+
+backend/data/

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">ByteBharat</title>
+  <desc id="desc">A rupee coin joined to digital byte pixels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#393939"/><stop offset="1" stop-color="#068DB1"/></linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E99A3E"/><stop offset="1" stop-color="#D27A18"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#122c33" flood-opacity=".28"/></filter>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#bg)"/>
+  <circle cx="61" cy="66" r="39" fill="none" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2"/>
+  <circle cx="61" cy="66" r="31" fill="url(#coin)" filter="url(#shadow)"/>
+  <circle cx="61" cy="66" r="25" fill="none" stroke="#FFF4E7" stroke-opacity=".48" stroke-width="1.5"/>
+  <text x="61" y="81" text-anchor="middle" font-family="Arial, Noto Sans, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">&#8377;</text>
+  <path d="M90 28h16v16H90z" rx="4" fill="#FFFFFF"/>
+  <path d="M108 48h10v10h-10z" fill="#E99A3E"/>
+  <path d="M91 51h9v9h-9z" fill="#BFEAF2"/>
+  <path d="M98 44v7m8-15h-8" fill="none" stroke="#FFF4E7" stroke-width="3" stroke-linecap="round"/>
+</svg>
