@@ -8,7 +8,7 @@ public class ScrollbarDemo {
         f.setLayout(new FlowLayout());
         Label label = new Label("Value: 0     ");
         Scrollbar sb = new Scrollbar(Scrollbar.HORIZONTAL, 0, 10, 0, 100);
-        sb.setPreferredSize(new Dimension(250, 20));
+        sb.setPreferredSize(new Dimension(10, 100));
         sb.addAdjustmentListener(e -> label.setText("Value: " + sb.getValue()));
         f.add(sb); f.add(label);
         f.setSize(320, 120);
